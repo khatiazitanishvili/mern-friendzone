@@ -69,7 +69,7 @@ FriendZone offers the following features:
 
 - Profile page with user information
 
-![FriendZone Screenshot](./server/public/assets/profilepage.png.png)
+![FriendZone Screenshot](./server/public/assets/profilepage.png)
 
 
 ## Technologies Used
