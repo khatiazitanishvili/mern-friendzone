@@ -42,7 +42,8 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
                 <UserImage image={userPicturePath} size="55px" />
                 <Box
                     onClick={() => {
-                        navigate(`/profile/${friendId}`)
+                        navigate(`/profile/${friendId}`);
+                        navigate(0);
                     }}
                 >
                     <Typography
@@ -52,8 +53,8 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
                         sx={{
                             "&:hover": {
                                 color: palette.primary.light,
-                                cursor: "pointer"
-                            }
+                                cursor: "pointer",
+                            },
                         }}
                     >
                         {name}
@@ -61,7 +62,6 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
                     <Typography color={medium} fontSize="0.75rem">
                         {subtitle}
                     </Typography>
-
                 </Box>
             </FlexBetween>
             <IconButton
@@ -72,12 +72,10 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
                     <PersonRemoveOutlined sx={{ color: primaryDark }} />
                 ) : (
                     <PersonAddOutlined sx={{ color: primaryDark }} />
-                )
-                }
-
+                )}
             </IconButton>
         </FlexBetween>
-    )
+    );
 };
 
 export default Friend;

@@ -180,7 +180,7 @@ const Navbar = () => {
                                 input={<InputBase />}
                             >
                                 <MenuItem value={fullName}>
-                                    <Typography>{fullName}</Typography>
+                                    <Typography >{fullName}</Typography>
                                 </MenuItem>
                                 <MenuItem onClick={() => dispatch(setLogout())}>
                                     Log Out
