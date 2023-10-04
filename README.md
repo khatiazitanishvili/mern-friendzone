@@ -2,6 +2,9 @@
 
 FriendZone is a MERN (MongoDB, Express.js, React.js, Node.js) application that allows users to connect with friends, create posts, upload photos, and view profile pages.
 
+**Live App:** [FriendZone on Vercel](https://mern-friendzone.vercel.app/)
+
+
 ![FriendZone Screenshot](./server/public/assets/homepage.png)
 
 
